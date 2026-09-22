@@ -1,0 +1,89 @@
+{
+  "id": "Event-App",
+  "description": "Event-App für die Verwaltung und Anmeldung zu Veranstaltungen",
+  "documents": [
+    {
+      "id": "REQ",
+      "guid": "060ac941-43c7-4541-a63e-984a8e626f32",
+      "name": "Requirements",
+      "lastId": 1,
+      "createdOn": "2026-09-22T14:20:14.880Z",
+      "createdBy": {
+        "name": "Samuel Wernig",
+        "email": "samuelwernig@gmail.com",
+        "company": "HTL LEOBEN"
+      },
+      "lastChangedOn": "2026-09-22T14:20:40.441Z",
+      "lastChangedBy": {
+        "name": "Samuel Wernig",
+        "email": "samuelwernig@gmail.com",
+        "company": "HTL LEOBEN"
+      },
+      "data": [
+        {
+          "id": "1",
+          "guid": "bcb7c258-113c-4a51-b79c-a47c6da85f02",
+          "heading": "EPIC 1 – Benutzerverwaltung",
+          "text": "<p>Umfasst alle Funktionen zur Registrierung, Anmeldung und Verwaltung von Benutzerkonten.</p>",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL LEOBEN",
+                "email": "samuelwernig@gmail.com",
+                "name": "Samuel Wernig"
+              },
+              "changedOn": "2026-09-22T14:20:40.441Z",
+              "docId": "REQ",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null,
+                "text": null
+              },
+              "changedBy": {
+                "company": "HTL LEOBEN",
+                "email": "samuelwernig@gmail.com",
+                "name": "Samuel Wernig"
+              },
+              "changedOn": "2026-09-22T14:20:40.441Z"
+            }
+          ]
+        }
+      ],
+      "attributes": {
+      },
+      "templateColumns": {
+      },
+      "views": {
+        "Primary": {
+          "columns": [
+            {
+              "columnId": "id",
+              "width": 65
+            },
+            {
+              "columnId": "description",
+              "width": 500
+            }
+          ],
+          "default": true
+        }
+      }
+    }
+  ],
+  "attachments": {
+  },
+  "traceability": {
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Referenced by"
+    }
+  },
+  "metadata": {
+    "format": "2.22",
+    "saveHistory": true
+  }
+}
