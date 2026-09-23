@@ -6,24 +6,106 @@
       "id": "REQ",
       "guid": "060ac941-43c7-4541-a63e-984a8e626f32",
       "name": "Requirements",
-      "lastId": 1,
+      "lastId": 7,
       "createdOn": "2026-09-22T14:20:14.880Z",
       "createdBy": {
         "name": "Samuel Wernig",
         "email": "samuelwernig@gmail.com",
         "company": "HTL LEOBEN"
       },
-      "lastChangedOn": "2026-09-22T14:20:40.441Z",
+      "lastChangedOn": "2026-09-23T08:55:12.191Z",
       "lastChangedBy": {
-        "name": "Samuel Wernig",
-        "email": "samuelwernig@gmail.com",
-        "company": "HTL LEOBEN"
+        "name": "Markus Brandstätter",
+        "email": "m.brandstaetter@edu.htl-leoben.at",
+        "company": "HTL Leoben"
       },
       "data": [
         {
+          "id": "5",
+          "guid": "beb160b8-44ae-4fef-a4cc-91e35da02efd",
+          "deleted": true,
+          "heading": "Anforderung: Registrierung",
+          "links": {
+            "reference": [
+              "REQ-1"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:50:48.922Z",
+              "docId": "REQ",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:50:48.922Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-1"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:51:13.659Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:51:44.640Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": true
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:51:52.398Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:54:13.941Z"
+            }
+          ]
+        },
+        {
           "id": "1",
           "guid": "bcb7c258-113c-4a51-b79c-a47c6da85f02",
-          "heading": "EPIC 1 – Benutzerverwaltung",
+          "heading": "EPIC – Benutzerverwaltung",
           "text": "<p>Umfasst alle Funktionen zur Registrierung, Anmeldung und Verwaltung von Benutzerkonten.</p>",
           "history": [
             {
@@ -48,6 +130,197 @@
                 "name": "Samuel Wernig"
               },
               "changedOn": "2026-09-22T14:20:40.441Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "EPIC 1 – Benutzerverwaltung"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:13.988Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "7",
+              "guid": "34e163f9-1e31-42da-a06c-01700bfe0f90",
+              "heading": "Anforderung: Login mit Email/Passwort",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-23T08:55:12.191Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-23T08:55:12.191Z"
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "guid": "4f273fb1-4f0d-4715-bbed-a960e774b0d7",
+              "heading": "Anforderung: Registrierung",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-23T08:52:59.616Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-23T08:52:59.616Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "guid": "a07f1b66-8500-4ddd-9b33-27e6f4b73402",
+          "heading": "EPIC - Veranstaltungen entdecken & suchen",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:48:14.345Z",
+              "docId": "REQ",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:48:14.345Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "REQ-2"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:48:37.785Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "EPIC 2 - Veranstaltungen entdecken & suchen"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:17.946Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "7e2f089d-80e1-4f1c-8191-902177b79948",
+          "heading": "EPIC - Veranstaltungsverwaltung",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:04.648Z",
+              "docId": "REQ",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:04.648Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "EPIC 3 - Veranstaltungsverwaltung"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:21.843Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "4d415ca5-a041-44ea-a8da-96c108ddbf55",
+          "heading": "EPIC - Anmeldung & Teilnahmeverwaltung",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:55.972Z",
+              "docId": "REQ",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "m.brandstaetter@edu.htl-leoben.at",
+                "name": "Markus Brandstätter"
+              },
+              "changedOn": "2026-09-23T08:49:55.972Z"
             }
           ]
         }
