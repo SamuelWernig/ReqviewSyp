@@ -344,6 +344,74 @@
           "default": true
         }
       }
+    },
+    {
+      "id": "Backlog",
+      "guid": "11a82257-01f2-42dd-b672-c9a93ac1ab6a",
+      "name": "Backlog für App",
+      "lastId": 1,
+      "createdOn": "2026-09-23T09:11:31.936Z",
+      "createdBy": {
+        "name": "Samuel Wernig",
+        "email": "samuelwernig@gmail.com",
+        "company": "HTL LEOBEN"
+      },
+      "lastChangedOn": "2026-09-23T09:11:35.992Z",
+      "lastChangedBy": {
+        "name": "Samuel Wernig",
+        "email": "samuelwernig@gmail.com",
+        "company": "HTL LEOBEN"
+      },
+      "data": [
+        {
+          "id": "1",
+          "guid": "31139b96-3068-4f4d-b21a-2c4099ea8025",
+          "heading": "Test1",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL LEOBEN",
+                "email": "samuelwernig@gmail.com",
+                "name": "Samuel Wernig"
+              },
+              "changedOn": "2026-09-23T09:11:35.992Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL LEOBEN",
+                "email": "samuelwernig@gmail.com",
+                "name": "Samuel Wernig"
+              },
+              "changedOn": "2026-09-23T09:11:35.992Z"
+            }
+          ]
+        }
+      ],
+      "attributes": {
+      },
+      "templateColumns": {
+      },
+      "views": {
+        "Primary": {
+          "columns": [
+            {
+              "columnId": "id",
+              "width": 65
+            },
+            {
+              "columnId": "description",
+              "width": 500
+            }
+          ],
+          "default": true
+        }
+      }
     }
   ],
   "attachments": {
