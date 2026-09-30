@@ -1263,10 +1263,8 @@
           ]
         }
       ],
-      "attributes": {
-      },
-      "templateColumns": {
-      },
+      "attributes": {},
+      "templateColumns": {},
       "views": {
         "Primary": {
           "columns": [
@@ -1287,7 +1285,7 @@
       "id": "Backlog",
       "guid": "11a82257-01f2-42dd-b672-c9a93ac1ab6a",
       "name": "Backlog für App",
-      "lastId": 16,
+      "lastId": 21,
       "createdOn": "2026-09-23T09:11:31.936Z",
       "createdBy": {
         "name": "Samuel Wernig",
@@ -1304,7 +1302,7 @@
         {
           "id": "1",
           "guid": "31139b96-3068-4f4d-b21a-2c4099ea8025",
-          "heading": "Eventdaten speichern",
+          "heading": "Übersicht eigener Veranstaltungen",
           "links": {
             "reference": [
               "REQ-12"
@@ -1374,7 +1372,7 @@
         {
           "id": "2",
           "guid": "03194f77-4e8d-495b-937f-594d8ffc18aa",
-          "heading": "Kategorien zuordnen",
+          "heading": "Filter nach Kategorie",
           "links": {
             "reference": [
               "REQ-11"
@@ -1433,10 +1431,10 @@
         {
           "id": "3",
           "guid": "75d3fae2-fa83-43c3-babb-b9a0a4001f88",
-          "heading": "Veranstaltungen ohne Anmeldung ansehen",
+          "heading": "Veranstaltungsdetails ansehen",
           "links": {
             "reference": [
-              "REQ-8"
+              "REQ-9"
             ]
           },
           "history": [
@@ -1492,10 +1490,10 @@
         {
           "id": "4",
           "guid": "7707d774-583d-4d0e-a9ea-e3467bdcdfab",
-          "heading": "Kommende Veranstaltungen anzeigen",
+          "heading": "Kommende Veranstaltungen auf der Startseite",
           "links": {
             "reference": [
-              "REQ-9"
+              "REQ-8"
             ]
           },
           "history": [
@@ -1551,7 +1549,7 @@
         {
           "id": "5",
           "guid": "882e1d17-8fcc-4f4a-919e-ea4b8c570adb",
-          "heading": "Nach Titel, Kategorie und Ort suchen",
+          "heading": "Suche nach Titel",
           "links": {
             "reference": [
               "REQ-10"
@@ -1610,7 +1608,7 @@
         {
           "id": "6",
           "guid": "5e6ab0c9-3cce-4343-b3ad-cc5221080e0e",
-          "heading": "Benutzer registrieren",
+          "heading": "Registrierung",
           "links": {
             "reference": [
               "REQ-6"
@@ -1669,7 +1667,7 @@
         {
           "id": "7",
           "guid": "124230f9-0134-4911-8e80-9411cbd48c55",
-          "heading": "Mit E-Mail und Passwort anmelden",
+          "heading": "Login mit Email/Passwort",
           "links": {
             "reference": [
               "REQ-7"
@@ -1765,7 +1763,7 @@
         {
           "id": "9",
           "guid": "e2151f25-c0bd-4209-a073-fb949558f5b5",
-          "heading": "Maximale Teilnehmerzahl einhalten",
+          "heading": "Limit bei max. Teilnehmerzahl",
           "links": {
             "reference": [
               "REQ-18"
@@ -1813,7 +1811,7 @@
         {
           "id": "10",
           "guid": "59c06012-f321-40b6-bbe3-1042b8454627",
-          "heading": "Für eine Veranstaltung anmelden",
+          "heading": "Anmeldung zur Veranstaltung",
           "links": {
             "reference": [
               "REQ-16"
@@ -1909,7 +1907,7 @@
         {
           "id": "12",
           "guid": "d9f6676d-ef29-4949-8136-24bdbbdd9121",
-          "heading": "Eigene Anmeldungen anzeigen",
+          "heading": "Übersicht eigener Anmeldungen",
           "links": {
             "reference": [
               "REQ-19"
@@ -1957,10 +1955,10 @@
         {
           "id": "13",
           "guid": "c599b031-8e02-46d6-bc94-4c02a7e4d9d7",
-          "heading": "Angemeldete Personen anzeigen",
+          "heading": "Angemeldete Personen einsehen",
           "links": {
             "reference": [
-              "REQ-20"
+              "REQ-15"
             ]
           },
           "history": [
@@ -2046,7 +2044,7 @@
         {
           "id": "15",
           "guid": "6001ca96-ad37-4e99-babf-58a98e25aad7",
-          "heading": "Eigene Veranstaltung bearbeiten",
+          "heading": "Veranstaltung bearbeiten",
           "links": {
             "reference": [
               "REQ-14"
@@ -2094,10 +2092,10 @@
         {
           "id": "16",
           "guid": "6fc3ffe3-b550-472c-9957-8d95e99d4e9c",
-          "heading": "Veranstaltung absagen und Angemeldete informieren",
+          "heading": "Veranstaltung absagen",
           "links": {
             "reference": [
-              "REQ-15"
+              "REQ-25"
             ]
           },
           "history": [
@@ -2138,12 +2136,60 @@
               "changedOn": "2026-09-30T08:41:08.071Z"
             }
           ]
+        },
+        {
+          "id": "17",
+          "guid": "ad413bc3-58f0-4da3-81cf-1b7e709108c5",
+          "heading": "Filter nach Veranstaltungsort",
+          "links": {
+            "reference": [
+              "REQ-23"
+            ]
+          }
+        },
+        {
+          "id": "18",
+          "guid": "dcd1af5f-3e2e-42c9-b9ff-d0e4aa381dc1",
+          "heading": "Freie Plätze anzeigen",
+          "links": {
+            "reference": [
+              "REQ-24"
+            ]
+          }
+        },
+        {
+          "id": "19",
+          "guid": "1a8517af-fdca-4c05-b693-85aed290d6ed",
+          "heading": "Passwort zurücksetzen",
+          "links": {
+            "reference": [
+              "REQ-21"
+            ]
+          }
+        },
+        {
+          "id": "20",
+          "guid": "dd1e33ab-a5d4-460f-be48-303cd9a085c2",
+          "heading": "Abmelden",
+          "links": {
+            "reference": [
+              "REQ-22"
+            ]
+          }
+        },
+        {
+          "id": "21",
+          "guid": "7f89ca1f-1b07-423e-909d-e874472e566f",
+          "heading": "Benachrichtigung bei Absage",
+          "links": {
+            "reference": [
+              "REQ-20"
+            ]
+          }
         }
       ],
-      "attributes": {
-      },
-      "templateColumns": {
-      },
+      "attributes": {},
+      "templateColumns": {},
       "views": {
         "Primary": {
           "columns": [
@@ -2161,8 +2207,7 @@
       }
     }
   ],
-  "attachments": {
-  },
+  "attachments": {},
   "traceability": {
     "reference": {
       "name": "Reference",
