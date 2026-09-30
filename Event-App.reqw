@@ -6,14 +6,14 @@
       "id": "REQ",
       "guid": "060ac941-43c7-4541-a63e-984a8e626f32",
       "name": "Requirements",
-      "lastId": 20,
+      "lastId": 25,
       "createdOn": "2026-09-22T14:20:14.880Z",
       "createdBy": {
         "name": "Samuel Wernig",
         "email": "samuelwernig@gmail.com",
         "company": "HTL LEOBEN"
       },
-      "lastChangedOn": "2026-09-23T09:38:04.055Z",
+      "lastChangedOn": "2026-09-30T08:50:27.293Z",
       "lastChangedBy": {
         "name": "Markus Brandstätter",
         "email": "m.brandstaetter@edu.htl-leoben.at",
@@ -148,7 +148,7 @@
               "id": "7",
               "guid": "34e163f9-1e31-42da-a06c-01700bfe0f90",
               "heading": "Anforderung: Login mit Email/Passwort",
-              "text": "<p>Als Nutzer oder Nutzerin möchte ich die Möglichkeit haben, mich nach erfolgreicher Registrierung, mit Passwort und Email anzumelden.</p>",
+              "text": "<p>Als registrierte:r Benutzer:in möchte ich mich mit E-Mail-Adresse und Passwort anmelden, damit ich auf meine persönlichen Funktionen zugreifen kann.</p><p><br></p><p>- Bei falschen Zugangsdaten erscheint eine allgemeine Fehlermeldung, die nicht verrät, ob die E-Mail-Adresse existiert.</p><p>- Nach dem Login werden die Funktionen passend zur eigenen Rolle angezeigt.</p>",
               "history": [
                 {
                   "affectedNodeId": "1",
@@ -204,6 +204,17 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:18:32.628Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Als Nutzer oder Nutzerin möchte ich die Möglichkeit haben, mich nach erfolgreicher Registrierung, mit Passwort und Email anzumelden.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:32:15.743Z"
                 }
               ]
             },
@@ -211,7 +222,7 @@
               "id": "6",
               "guid": "4f273fb1-4f0d-4715-bbed-a960e774b0d7",
               "heading": "Anforderung: Registrierung",
-              "text": "<p>Als Nutzer oder Nutzerin möchte ich die Möglichkeit haben mich zu registrieren um auf mein Profil zugreifen zu können.</p>",
+              "text": "<p>Als Nutzer:in möchte ich mich mit E-Mail-Adresse und Passwort registrieren, damit ich mich für Veranstaltungen anmelden kann.</p><p><br></p><p>- Die E-Mail-Adresse muss gültig und eindeutig sein; ist sie bereits vergeben, erscheint eine Fehlermeldung.</p><p>- Das Passwort muss mindestens 8 Zeichen lang sein.</p><p>- Bei der Registrierung wird die Rolle „Besucher:in“ oder „Veranstalter:in“ gewählt.</p>",
               "history": [
                 {
                   "affectedNodeId": "1",
@@ -245,6 +256,90 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:17:22.033Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Als Nutzer oder Nutzerin möchte ich die Möglichkeit haben mich zu registrieren um auf mein Profil zugreifen zu können.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:31:41.548Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Als Besucher:in möchte ich mich mit E-Mail-Adresse und Passwort registrieren, damit ich mich für Veranstaltungen anmelden kann.</p><p><br></p><p>- Die E-Mail-Adresse muss gültig und eindeutig sein; ist sie bereits vergeben, erscheint eine Fehlermeldung.</p><p>- Das Passwort muss mindestens 8 Zeichen lang sein.</p><p>- Bei der Registrierung wird die Rolle „Besucher:in“ oder „Veranstalter:in“ gewählt.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:31:51.912Z"
+                }
+              ]
+            },
+            {
+              "id": "21",
+              "guid": "cfe2bbac-3636-4458-802b-ef6ab74b4ee0",
+              "heading": "Anforderung: Passwort zurücksetzen",
+              "text": "<p>Als Benutzer:in möchte ich mein Passwort per E-Mail zurücksetzen, damit ich mein Konto nicht verliere, wenn ich das Passwort vergesse.</p><p><br></p><p>- Der Link zum Zurücksetzen wird an die hinterlegte E-Mail-Adresse gesendet.</p><p>- Der Link ist nur zeitlich begrenzt gültig (z. B. 24 Stunden).</p>",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:33:08.610Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:33:08.610Z"
+                }
+              ]
+            },
+            {
+              "id": "22",
+              "guid": "2246d8b5-7769-4761-b239-d983edb24794",
+              "heading": "Anforderung: Abmelden",
+              "text": "<p>Als angemeldete:r Benutzer:in möchte ich mich abmelden, damit niemand auf einem geteilten Gerät mein Konto nutzen kann.</p><p><br></p><p>- Nach dem Logout sind geschützte Funktionen erst nach erneutem Login verfügbar.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "1",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:33:34.351Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:33:34.351Z"
                 }
               ]
             }
@@ -327,8 +422,8 @@
             {
               "id": "8",
               "guid": "ff5ace59-4b41-4c8f-b2ba-66fc000c4e6d",
-              "heading": "Anforderung: Ansehen ohne Anmeldung möglich",
-              "text": "<p>Als Nutzer oder Nutzerin möchte ich Veranstaltungen ohne Anmeldung ansehen können, um meine Daten, wie z.B. meine Email nicht preisgeben zu müssen nur um Veranstaltungen anzusehen.</p>",
+              "heading": "Anforderung: Kommende Veranstaltungen auf der Startseite",
+              "text": "<p>Als Besucher:in möchte ich auf der Startseite die kommenden Veranstaltungen sehen, damit ich schnell einen Überblick über das Angebot bekomme.</p><p><br></p><p>- Es werden nur Veranstaltungen in der Zukunft angezeigt, sortiert nach Datum aufsteigend.</p><p>- Die Startseite ist auch ohne Login aufrufbar.</p><p>- Abgesagte Veranstaltungen werden nicht angezeigt oder sind klar als „abgesagt“ gekennzeichnet.</p>",
               "history": [
                 {
                   "affectedNodeId": "2",
@@ -384,14 +479,26 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:34:12.714Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Ansehen ohne Anmeldung möglich",
+                    "text": "<p>Als Nutzer oder Nutzerin möchte ich Veranstaltungen ohne Anmeldung ansehen können, um meine Daten, wie z.B. meine Email nicht preisgeben zu müssen nur um Veranstaltungen anzusehen.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:41:29.516Z"
                 }
               ]
             },
             {
               "id": "9",
               "guid": "30d0e284-1f0e-4d3b-b205-4f8194358c7d",
-              "heading": "Anforderung: Startseite zeigt kommende Veranstaltungen",
-              "text": "<p>Als Nutzer oder Nutzerin, möchte ich alle kommenden Veranstaltungen direkt auf der Startseite sehen, ohne mich durch verschiedene Menüs klicken zu müssen.</p>",
+              "heading": "Anforderung: Veranstaltungsdetails ansehen",
+              "text": "<p>Als Besucher:in möchte ich die Details einer Veranstaltung ohne Login ansehen, damit ich entscheiden kann, ob sie mich interessiert.</p><p><br></p><p>- Angezeigt werden Titel, Beschreibung, Datum, Uhrzeit, Veranstaltungsort, Kategorie, Veranstalter:in und maximale Teilnehmerzahl.</p><p>- Die Detailseite ist ohne Login aufrufbar.</p>",
               "history": [
                 {
                   "affectedNodeId": "2",
@@ -425,14 +532,26 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:34:07.886Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Startseite zeigt kommende Veranstaltungen",
+                    "text": "<p>Als Nutzer oder Nutzerin, möchte ich alle kommenden Veranstaltungen direkt auf der Startseite sehen, ohne mich durch verschiedene Menüs klicken zu müssen.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:41:58.114Z"
                 }
               ]
             },
             {
               "id": "10",
               "guid": "9dbafc41-da1f-4300-9912-f3b0c6ab558b",
-              "heading": "Anforderung: Suche nach Titel/Kategorie/Ort",
-              "text": "<p>Als Nutzer oder Nutzerin, möchte ich die Möglichkeit haben nach verschiedenen Kriterien zu suchen, um somit die gewünschten Veranstaltungen möglichst schnell zu finden.</p>",
+              "heading": "Anforderung: Suche nach Titel",
+              "text": "<p>Als Besucher:in möchte ich Veranstaltungen über ihren Titel suchen, damit ich eine bestimmte Veranstaltung schnell finde.</p><p><br></p><p>- Auch Teilbegriffe liefern Treffer; Groß-/Kleinschreibung wird ignoriert.</p><p>- Gibt es keine Treffer, erscheint ein entsprechender Hinweis.</p>",
               "history": [
                 {
                   "affectedNodeId": "2",
@@ -477,14 +596,26 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:35:57.435Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Suche nach Titel/Kategorie/Ort",
+                    "text": "<p>Als Nutzer oder Nutzerin, möchte ich die Möglichkeit haben nach verschiedenen Kriterien zu suchen, um somit die gewünschten Veranstaltungen möglichst schnell zu finden.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:42:28.209Z"
                 }
               ]
             },
             {
               "id": "11",
               "guid": "02c8c1c3-473d-4cf5-9a1e-44e0e7dd98f6",
-              "heading": "Anforderung: Kategorien (Musik, Sport, Bildung, Kultur, Freizeit)",
-              "text": "<p>Als Nutzer oder Nutzerin, möchte ich verschiedene Kategorien für Veranstaltungen zur Auswahl haben, um somit nach bestimmten Veranstaltungen, je nach kategorischen Vorlieben, zu suchen.</p>",
+              "heading": "Anforderung: Filter nach Kategorie",
+              "text": "<p>Als Besucher:in möchte ich Veranstaltungen nach Kategorie filtern, damit ich nur Veranstaltungen sehe, die mich interessieren.</p><p><br></p><p>- Verfügbare Kategorien: Musik, Sport, Bildung, Kultur, Freizeit.</p><p>- Der Kategoriefilter ist mit der Titelsuche kombinierbar.</p>",
               "history": [
                 {
                   "affectedNodeId": "2",
@@ -529,6 +660,80 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:37:45.341Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Kategorien (Musik, Sport, Bildung, Kultur, Freizeit)",
+                    "text": "<p>Als Nutzer oder Nutzerin, möchte ich verschiedene Kategorien für Veranstaltungen zur Auswahl haben, um somit nach bestimmten Veranstaltungen, je nach kategorischen Vorlieben, zu suchen.</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:42:56.271Z"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "guid": "15cbe921-2c35-41cd-9793-9c3fd6d75686",
+              "heading": "Anforderung: Filter nach Veranstaltungsort",
+              "text": "<p>Als Besucher:in möchte ich Veranstaltungen nach Veranstaltungsort suchen, damit ich Veranstaltungen in meiner Nähe finde.</p><p><br></p><p>- Die Suche nach dem Ort ist mit Titelsuche und Kategoriefilter kombinierbar.</p><p>- Gibt es keine Treffer, erscheint ein entsprechender Hinweis.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "2",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:43:21.512Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:43:21.512Z"
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "guid": "2322d9ba-b917-4ab3-924b-98e601acaa33",
+              "heading": "Anforderung: Freie Plätze anzeigen",
+              "text": "<p>Als Besucher:in möchte ich sehen, wie viele Plätze bei einer Veranstaltung noch frei sind, damit ich weiß, ob eine Anmeldung noch möglich ist.</p><p><br></p><p>- Die Anzahl der freien Plätze wird in der Übersicht und auf der Detailseite angezeigt.</p><p>- Ausgebuchte Veranstaltungen sind als „ausgebucht“ gekennzeichnet.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "2",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:44:11.173Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:44:11.173Z"
                 }
               ]
             }
@@ -589,7 +794,8 @@
             {
               "id": "12",
               "guid": "e3542bf4-b773-45e8-bdd7-7b1521ffa69e",
-              "heading": "Anforderung: Datenfelder je Veranstaltung (Titel, Beschreibung, Datum, Uhrzeit, Ort, Kategorie, Veranstalter, max. Teilnehmerzahl)",
+              "heading": "Anforderung:Übersicht eigener Veranstaltungen",
+              "text": "<p>Als Veranstalter:in möchte ich eine Liste meiner eigenen Veranstaltungen sehen, damit ich sie gezielt bearbeiten und verwalten kann.</p><p><br></p><p>- Die Liste zeigt nur Veranstaltungen, die ich selbst erstellt habe.</p><p>- Pro Veranstaltung sind Datum, Status und Anzahl der Anmeldungen sichtbar.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -612,6 +818,29 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:23:45.649Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:26:49.308Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Datenfelder je Veranstaltung (Titel, Beschreibung, Datum, Uhrzeit, Ort, Kategorie, Veranstalter, max. Teilnehmerzahl)",
+                    "text": "<p>Als Nutzer oder Nutzerin möchte</p>"
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:45:37.290Z"
                 }
               ]
             },
@@ -619,6 +848,7 @@
               "id": "13",
               "guid": "8ee09edf-c1c5-4a87-b7fa-f2bb78f9897f",
               "heading": "Anforderung: Veranstaltung erstellen",
+              "text": "<p>Als Veranstalter:in möchte ich eine neue Veranstaltung erstellen, damit Besucher:innen sie finden und sich dafür anmelden können.</p><p><br></p><p>- Pflichtfelder: Titel, Beschreibung, Datum, Uhrzeit, Veranstaltungsort, Kategorie, maximale Teilnehmerzahl.</p><p>- Das Datum muss in der Zukunft liegen, die maximale Teilnehmerzahl muss größer als 0 sein.</p><p>- Die Veranstaltung wird automatisch der angemeldeten Veranstalter:in zugeordnet.</p><p>- Nur Benutzer:innen mit der Rolle „Veranstalter:in“ können Veranstaltungen erstellen.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -641,6 +871,17 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:24:22.372Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:44:53.756Z"
                 }
               ]
             },
@@ -648,6 +889,7 @@
               "id": "14",
               "guid": "6468fdc8-78af-4057-a676-470e54764a11",
               "heading": "Anforderung: Veranstaltung bearbeiten",
+              "text": "<p>Als Veranstalter:in möchte ich meine eigenen Veranstaltungen bearbeiten, damit ich Fehler oder Änderungen korrigieren kann.</p><p><br></p><p>- Nur eigene Veranstaltungen können bearbeitet werden.</p><p>- Es gelten dieselben Pflichtfelder und Prüfungen wie beim Erstellen.</p><p>- Die maximale Teilnehmerzahl darf nicht unter die aktuelle Anzahl der Anmeldungen gesenkt werden.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -670,13 +912,25 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:24:43.227Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:46:01.587Z"
                 }
               ]
             },
             {
               "id": "15",
               "guid": "eecd2ffa-06fc-4686-8627-a59f00602c19",
-              "heading": "Anforderung: Veranstaltung absagen (inkl. Info an Angemeldete)",
+              "heading": "Anforderung: Angemeldete Personen einsehen",
+              "text": "<p>Als Veranstalter:in möchte ich sehen, welche Personen für meine Veranstaltung angemeldet sind, damit ich die Veranstaltung planen kann.</p><p><br></p><p>- Die Liste zeigt Name und E-Mail-Adresse aller angemeldeten Personen.</p><p>- Die Anzahl der Anmeldungen wird im Verhältnis zur maximalen Teilnehmerzahl angezeigt (z. B. 34/50).</p><p>- Die Liste ist nur für die jeweilige Veranstalter:in sichtbar.</p>",
               "history": [
                 {
                   "affectedNodeId": "3",
@@ -699,6 +953,49 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:25:06.974Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Veranstaltung absagen (inkl. Info an Angemeldete)",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:46:49.906Z"
+                }
+              ]
+            },
+            {
+              "id": "25",
+              "guid": "54feed42-5044-443f-be5d-b59d07bca962",
+              "heading": "Anforderung: Veranstaltung absagen",
+              "text": "<p>Als Veranstalter:in möchte ich eine Veranstaltung absagen, damit Besucher:innen wissen, dass sie nicht stattfindet.</p><p><br></p><p>- Vor der Absage erscheint eine Sicherheitsabfrage.</p><p>- Die Veranstaltung erhält den Status „abgesagt“.</p><p>- Für abgesagte Veranstaltungen sind keine Anmeldungen mehr möglich.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "3",
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:47:21.223Z",
+                  "docId": "REQ",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:47:21.223Z"
                 }
               ]
             }
@@ -760,6 +1057,7 @@
               "id": "16",
               "guid": "8848bd05-2701-4260-a0f5-586a4b0b80b3",
               "heading": "Anforderung: Anmeldung zur Veranstaltung",
+              "text": "<p>Als angemeldete:r Besucher:in möchte ich mich für eine Veranstaltung anmelden, damit mir ein Platz sicher ist.</p><p><br></p><p>- Die Anmeldung ist nur mit Login möglich; ohne Login wird man zum Login weitergeleitet.</p><p>- Pro Person ist nur eine Anmeldung je Veranstaltung möglich.</p><p>- Nach erfolgreicher Anmeldung erscheint eine Bestätigung.</p>",
               "history": [
                 {
                   "affectedNodeId": "4",
@@ -782,6 +1080,17 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:25:35.485Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:48:01.323Z"
                 }
               ]
             },
@@ -789,6 +1098,7 @@
               "id": "17",
               "guid": "39733eac-cf5c-4cae-ab18-c518ab819fc4",
               "heading": "Anforderung: Anmeldung stornieren",
+              "text": "<p>Als Besucher:in möchte ich meine Anmeldung zu einer Veranstaltung stornieren, damit mein Platz für andere frei wird.</p><p><br></p><p>- Nach der Stornierung ist der Platz sofort wieder verfügbar.</p><p>- Eine Stornierung ist nur vor Beginn der Veranstaltung möglich.</p>",
               "history": [
                 {
                   "affectedNodeId": "4",
@@ -811,6 +1121,17 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:26:10.648Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:48:23.250Z"
                 }
               ]
             },
@@ -818,6 +1139,7 @@
               "id": "18",
               "guid": "4268c2d2-deab-47dc-b509-e6b534372933",
               "heading": "Anforderung: Limit bei max. Teilnehmerzahl",
+              "text": "<p>Als Veranstalter:in möchte ich, dass keine Anmeldungen über die maximale Teilnehmerzahl hinaus möglich sind, damit die Kapazität meiner Veranstaltung nicht überschritten wird.</p><p><br></p><p>- Ist die maximale Teilnehmerzahl erreicht, ist die Anmeldung deaktiviert und die Veranstaltung als „ausgebucht“ gekennzeichnet.</p><p>- Auch bei gleichzeitigen Anmeldungen wird die maximale Teilnehmerzahl nicht überschritten.</p>",
               "history": [
                 {
                   "affectedNodeId": "4",
@@ -840,13 +1162,25 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:26:29.860Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:49:40.084Z"
                 }
               ]
             },
             {
               "id": "19",
               "guid": "5453cb45-d588-4c8e-b393-294ffc0c8f42",
-              "heading": "Anforderung: Übersicht eigener Anmeldungen (Besucher:in-Sicht)",
+              "heading": "Anforderung: Übersicht eigener Anmeldungen",
+              "text": "<p>Als Besucher:in möchte ich eine Übersicht über meine angemeldeten Veranstaltungen sehen, damit ich meine Termine im Blick habe.</p><p><br></p><p>- Die Übersicht ist nach Datum sortiert und trennt kommende von vergangenen Veranstaltungen.</p><p>- Abgesagte Veranstaltungen sind deutlich gekennzeichnet.</p><p>- Von der Übersicht aus kann eine Anmeldung storniert werden.</p>",
               "history": [
                 {
                   "affectedNodeId": "4",
@@ -869,13 +1203,26 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:26:54.044Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Übersicht eigener Anmeldungen (Besucher:in-Sicht)",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:48:56.096Z"
                 }
               ]
             },
             {
               "id": "20",
               "guid": "b1b684f5-7d9c-4ade-8437-92270d47bfaf",
-              "heading": "Anforderung: Übersicht angemeldeter Personen (Veranstalter:in-Sicht)",
+              "heading": "Anforderung: Benachrichtigung bei Absage",
+              "text": "<p>Als angemeldete:r Besucher:in möchte ich informiert werden, wenn eine Veranstaltung abgesagt wird, damit ich nicht umsonst anreise.</p><p><br></p><p>- Bei einer Absage erhalten alle angemeldeten Personen automatisch eine Benachrichtigung (E-Mail und/oder In-App).</p><p>- Die Benachrichtigung enthält Titel und Datum der abgesagten Veranstaltung.</p>",
               "history": [
                 {
                   "affectedNodeId": "4",
@@ -898,6 +1245,18 @@
                     "name": "Markus Brandstätter"
                   },
                   "changedOn": "2026-09-23T09:27:10.112Z"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": "Anforderung: Übersicht angemeldeter Personen (Veranstalter:in-Sicht)",
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "HTL Leoben",
+                    "email": "m.brandstaetter@edu.htl-leoben.at",
+                    "name": "Markus Brandstätter"
+                  },
+                  "changedOn": "2026-09-30T08:50:27.293Z"
                 }
               ]
             }
