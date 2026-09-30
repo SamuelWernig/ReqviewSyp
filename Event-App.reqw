@@ -928,24 +928,29 @@
       "id": "Backlog",
       "guid": "11a82257-01f2-42dd-b672-c9a93ac1ab6a",
       "name": "Backlog für App",
-      "lastId": 1,
+      "lastId": 16,
       "createdOn": "2026-09-23T09:11:31.936Z",
       "createdBy": {
         "name": "Samuel Wernig",
         "email": "samuelwernig@gmail.com",
         "company": "HTL LEOBEN"
       },
-      "lastChangedOn": "2026-09-23T09:11:35.992Z",
+      "lastChangedOn": "2026-09-30T08:41:08.071Z",
       "lastChangedBy": {
-        "name": "Samuel Wernig",
-        "email": "samuelwernig@gmail.com",
-        "company": "HTL LEOBEN"
+        "name": "Manuel",
+        "email": "manuel.winter@edu.htl-leoben.at",
+        "company": "HTL Leoben"
       },
       "data": [
         {
           "id": "1",
           "guid": "31139b96-3068-4f4d-b21a-2c4099ea8025",
-          "heading": "Test1",
+          "heading": "Eventdaten speichern",
+          "links": {
+            "reference": [
+              "REQ-12"
+            ]
+          },
           "history": [
             {
               "affectedNodeId": "#",
@@ -968,6 +973,810 @@
                 "name": "Samuel Wernig"
               },
               "changedOn": "2026-09-23T09:11:35.992Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Test1"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:27:23.815Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Veranstaltungen ohne Anmeldung ansehen → REQ-8"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:34:57.079Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-12"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:35:22.010Z"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "guid": "03194f77-4e8d-495b-937f-594d8ffc18aa",
+          "heading": "Kategorien zuordnen",
+          "links": {
+            "reference": [
+              "REQ-11"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:03.934Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:03.934Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Rang 2: Kommende Veranstaltungen anzeigen → REQ-9"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:35:34.046Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-11"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:35:46.851Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "75d3fae2-fa83-43c3-babb-b9a0a4001f88",
+          "heading": "Veranstaltungen ohne Anmeldung ansehen",
+          "links": {
+            "reference": [
+              "REQ-8"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:24.961Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:24.961Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Rang 3: Kategorien zuordnen → REQ-11"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:35:59.846Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-8"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:10.617Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "7707d774-583d-4d0e-a9ea-e3467bdcdfab",
+          "heading": "Kommende Veranstaltungen anzeigen",
+          "links": {
+            "reference": [
+              "REQ-9"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:44.191Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:44.191Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": " Rang 4: Veranstaltungen suchen → REQ-10"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:19.234Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-9"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:28.657Z"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "guid": "882e1d17-8fcc-4f4a-919e-ea4b8c570adb",
+          "heading": "Nach Titel, Kategorie und Ort suchen",
+          "links": {
+            "reference": [
+              "REQ-10"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:57.701Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:30:57.701Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Rang 5: Registrieren → REQ-6"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:36.675Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-10"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:43.886Z"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "guid": "5e6ab0c9-3cce-4343-b3ad-cc5221080e0e",
+          "heading": "Benutzer registrieren",
+          "links": {
+            "reference": [
+              "REQ-6"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:31:04.152Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:31:04.152Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Rang 6: Login → REQ-7"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:36:52.142Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-6"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:37:02.209Z"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "guid": "124230f9-0134-4911-8e80-9411cbd48c55",
+          "heading": "Mit E-Mail und Passwort anmelden",
+          "links": {
+            "reference": [
+              "REQ-7"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:37:37.775Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:37:37.775Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-7"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:37:51.895Z"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "guid": "1f54d4c3-1511-477f-a06b-1cec6184db1b",
+          "heading": "Veranstaltung erstellen",
+          "links": {
+            "reference": [
+              "REQ-13"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:05.013Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:05.013Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-13"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:14.975Z"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "guid": "e2151f25-c0bd-4209-a073-fb949558f5b5",
+          "heading": "Maximale Teilnehmerzahl einhalten",
+          "links": {
+            "reference": [
+              "REQ-18"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:25.186Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:25.186Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-18"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:31.033Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "guid": "59c06012-f321-40b6-bbe3-1042b8454627",
+          "heading": "Für eine Veranstaltung anmelden",
+          "links": {
+            "reference": [
+              "REQ-16"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:44.584Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:44.584Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-16"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:38:51.465Z"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "c19b6561-1c85-4583-9c98-d8b37efe9cf0",
+          "heading": "Anmeldung stornieren",
+          "links": {
+            "reference": [
+              "REQ-17"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:11.145Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:11.145Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-17"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:19.343Z"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "guid": "d9f6676d-ef29-4949-8136-24bdbbdd9121",
+          "heading": "Eigene Anmeldungen anzeigen",
+          "links": {
+            "reference": [
+              "REQ-19"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:28.752Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:28.752Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-19"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:36.033Z"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "guid": "c599b031-8e02-46d6-bc94-4c02a7e4d9d7",
+          "heading": "Angemeldete Personen anzeigen",
+          "links": {
+            "reference": [
+              "REQ-20"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:44.149Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:44.149Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-20"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:39:53.805Z"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "595835e5-5a8e-4896-a0e1-59379d7ae22b",
+          "deleted": true,
+          "heading": "Eigene Veranstaltung bearbeiten",
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:06.198Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:06.198Z"
+            },
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:27.658Z"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "6001ca96-ad37-4e99-babf-58a98e25aad7",
+          "heading": "Eigene Veranstaltung bearbeiten",
+          "links": {
+            "reference": [
+              "REQ-14"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:41.382Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:41.382Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-14"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:40:51.978Z"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "6fc3ffe3-b550-472c-9957-8d95e99d4e9c",
+          "heading": "Veranstaltung absagen und Angemeldete informieren",
+          "links": {
+            "reference": [
+              "REQ-15"
+            ]
+          },
+          "history": [
+            {
+              "affectedNodeId": "#",
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:41:00.766Z",
+              "docId": "Backlog",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:41:00.766Z"
+            },
+            {
+              "addedLink": {
+                "target": [
+                  "REQ-15"
+                ],
+                "type": "reference"
+              },
+              "changedBy": {
+                "company": "HTL Leoben",
+                "email": "manuel.winter@edu.htl-leoben.at",
+                "name": "Manuel"
+              },
+              "changedOn": "2026-09-30T08:41:08.071Z"
             }
           ]
         }
